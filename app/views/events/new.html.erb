@@ -1,0 +1,15 @@
+<div style="width: 80%; margin: 0 auto; ">
+	<h1>Crear Evento</h1>
+	<%= form_for(@event) do |e| %>
+		<div class="field">
+			<%= e.text_field :title , placeholder: "Titulo", class:"form-control" %>
+		</div>
+		<div class="field">
+			<%= e.text_area :body , placeholder: "Escribe una descripcion del evento", style:"height: 250px;", class:"form-control" %>
+		</div>
+		<div class="field">
+			<%= e.submit "Guardar", class:"btn be-red white" %>
+		</div>
+	<% end %>
+</div>
+
