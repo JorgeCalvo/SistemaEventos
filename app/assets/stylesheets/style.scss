@@ -4,16 +4,22 @@ html,body{
 }
 
 .btn{
+	margin-top: 10px;
 	background-color: inherit;
 	border: none;
 	outline: none;
 	text-transform: uppercase;
 	cursor: pointer;
-	font-size: 1.2em;
-	padding: 5px 5px;
+	padding: 10px 12px;
+	border-radius: 8px;
+	border: 1px solid black;
 }
 
-.be-red{
+.be-col{
+	background-color: rgb(31,212,100);
+}
+
+.be-green{
 	background-color: rgb(31,212,100);
 }
 
@@ -52,3 +58,6 @@ a,a:visited{
 	font-size: 1.2em;
 }
 
+.text-left{
+	text-align: left;
+}
